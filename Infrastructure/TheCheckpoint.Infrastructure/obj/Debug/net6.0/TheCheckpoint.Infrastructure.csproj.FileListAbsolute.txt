@@ -1,0 +1,17 @@
+C:\Users\Ülvi\Desktop\DEV\TheCheckpointAPI\Infrastructure\TheCheckpoint.Infrastructure\bin\Debug\net6.0\TheCheckpoint.Infrastructure.deps.json
+C:\Users\Ülvi\Desktop\DEV\TheCheckpointAPI\Infrastructure\TheCheckpoint.Infrastructure\bin\Debug\net6.0\TheCheckpoint.Infrastructure.dll
+C:\Users\Ülvi\Desktop\DEV\TheCheckpointAPI\Infrastructure\TheCheckpoint.Infrastructure\bin\Debug\net6.0\TheCheckpoint.Infrastructure.pdb
+C:\Users\Ülvi\Desktop\DEV\TheCheckpointAPI\Infrastructure\TheCheckpoint.Infrastructure\bin\Debug\net6.0\TheCheckpoint.Application.dll
+C:\Users\Ülvi\Desktop\DEV\TheCheckpointAPI\Infrastructure\TheCheckpoint.Infrastructure\bin\Debug\net6.0\TheCheckpoint.Domain.dll
+C:\Users\Ülvi\Desktop\DEV\TheCheckpointAPI\Infrastructure\TheCheckpoint.Infrastructure\bin\Debug\net6.0\TheCheckpoint.Application.pdb
+C:\Users\Ülvi\Desktop\DEV\TheCheckpointAPI\Infrastructure\TheCheckpoint.Infrastructure\bin\Debug\net6.0\TheCheckpoint.Domain.pdb
+C:\Users\Ülvi\Desktop\DEV\TheCheckpointAPI\Infrastructure\TheCheckpoint.Infrastructure\obj\Debug\net6.0\TheCheckpoint.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Ülvi\Desktop\DEV\TheCheckpointAPI\Infrastructure\TheCheckpoint.Infrastructure\obj\Debug\net6.0\TheCheckpoint.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ülvi\Desktop\DEV\TheCheckpointAPI\Infrastructure\TheCheckpoint.Infrastructure\obj\Debug\net6.0\TheCheckpoint.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Ülvi\Desktop\DEV\TheCheckpointAPI\Infrastructure\TheCheckpoint.Infrastructure\obj\Debug\net6.0\TheCheckpoint.Infrastructure.AssemblyInfo.cs
+C:\Users\Ülvi\Desktop\DEV\TheCheckpointAPI\Infrastructure\TheCheckpoint.Infrastructure\obj\Debug\net6.0\TheCheckpoint.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Ülvi\Desktop\DEV\TheCheckpointAPI\Infrastructure\TheCheckpoint.Infrastructure\obj\Debug\net6.0\TheCheckpoint.Infrastructure.csproj.CopyComplete
+C:\Users\Ülvi\Desktop\DEV\TheCheckpointAPI\Infrastructure\TheCheckpoint.Infrastructure\obj\Debug\net6.0\TheCheckpoint.Infrastructure.dll
+C:\Users\Ülvi\Desktop\DEV\TheCheckpointAPI\Infrastructure\TheCheckpoint.Infrastructure\obj\Debug\net6.0\refint\TheCheckpoint.Infrastructure.dll
+C:\Users\Ülvi\Desktop\DEV\TheCheckpointAPI\Infrastructure\TheCheckpoint.Infrastructure\obj\Debug\net6.0\TheCheckpoint.Infrastructure.pdb
+C:\Users\Ülvi\Desktop\DEV\TheCheckpointAPI\Infrastructure\TheCheckpoint.Infrastructure\obj\Debug\net6.0\ref\TheCheckpoint.Infrastructure.dll

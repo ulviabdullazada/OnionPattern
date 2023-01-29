@@ -1,0 +1,15 @@
+C:\Users\Ülvi\Desktop\DEV\TheCheckpointAPI\Core\TheCheckpoint.Application\bin\Debug\net6.0\TheCheckpoint.Application.deps.json
+C:\Users\Ülvi\Desktop\DEV\TheCheckpointAPI\Core\TheCheckpoint.Application\bin\Debug\net6.0\TheCheckpoint.Application.dll
+C:\Users\Ülvi\Desktop\DEV\TheCheckpointAPI\Core\TheCheckpoint.Application\bin\Debug\net6.0\TheCheckpoint.Application.pdb
+C:\Users\Ülvi\Desktop\DEV\TheCheckpointAPI\Core\TheCheckpoint.Application\bin\Debug\net6.0\TheCheckpoint.Domain.dll
+C:\Users\Ülvi\Desktop\DEV\TheCheckpointAPI\Core\TheCheckpoint.Application\bin\Debug\net6.0\TheCheckpoint.Domain.pdb
+C:\Users\Ülvi\Desktop\DEV\TheCheckpointAPI\Core\TheCheckpoint.Application\obj\Debug\net6.0\TheCheckpoint.Application.csproj.AssemblyReference.cache
+C:\Users\Ülvi\Desktop\DEV\TheCheckpointAPI\Core\TheCheckpoint.Application\obj\Debug\net6.0\TheCheckpoint.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ülvi\Desktop\DEV\TheCheckpointAPI\Core\TheCheckpoint.Application\obj\Debug\net6.0\TheCheckpoint.Application.AssemblyInfoInputs.cache
+C:\Users\Ülvi\Desktop\DEV\TheCheckpointAPI\Core\TheCheckpoint.Application\obj\Debug\net6.0\TheCheckpoint.Application.AssemblyInfo.cs
+C:\Users\Ülvi\Desktop\DEV\TheCheckpointAPI\Core\TheCheckpoint.Application\obj\Debug\net6.0\TheCheckpoint.Application.csproj.CoreCompileInputs.cache
+C:\Users\Ülvi\Desktop\DEV\TheCheckpointAPI\Core\TheCheckpoint.Application\obj\Debug\net6.0\TheCheckpoint.Application.csproj.CopyComplete
+C:\Users\Ülvi\Desktop\DEV\TheCheckpointAPI\Core\TheCheckpoint.Application\obj\Debug\net6.0\TheCheckpoint.Application.dll
+C:\Users\Ülvi\Desktop\DEV\TheCheckpointAPI\Core\TheCheckpoint.Application\obj\Debug\net6.0\refint\TheCheckpoint.Application.dll
+C:\Users\Ülvi\Desktop\DEV\TheCheckpointAPI\Core\TheCheckpoint.Application\obj\Debug\net6.0\TheCheckpoint.Application.pdb
+C:\Users\Ülvi\Desktop\DEV\TheCheckpointAPI\Core\TheCheckpoint.Application\obj\Debug\net6.0\ref\TheCheckpoint.Application.dll

@@ -1,0 +1,12 @@
+C:\Users\Ülvi\Desktop\DEV\TheCheckpointAPI\Core\TheCheckpoint.Domain\bin\Debug\net6.0\TheCheckpoint.Domain.deps.json
+C:\Users\Ülvi\Desktop\DEV\TheCheckpointAPI\Core\TheCheckpoint.Domain\bin\Debug\net6.0\TheCheckpoint.Domain.dll
+C:\Users\Ülvi\Desktop\DEV\TheCheckpointAPI\Core\TheCheckpoint.Domain\bin\Debug\net6.0\TheCheckpoint.Domain.pdb
+C:\Users\Ülvi\Desktop\DEV\TheCheckpointAPI\Core\TheCheckpoint.Domain\obj\Debug\net6.0\TheCheckpoint.Domain.csproj.AssemblyReference.cache
+C:\Users\Ülvi\Desktop\DEV\TheCheckpointAPI\Core\TheCheckpoint.Domain\obj\Debug\net6.0\TheCheckpoint.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ülvi\Desktop\DEV\TheCheckpointAPI\Core\TheCheckpoint.Domain\obj\Debug\net6.0\TheCheckpoint.Domain.AssemblyInfoInputs.cache
+C:\Users\Ülvi\Desktop\DEV\TheCheckpointAPI\Core\TheCheckpoint.Domain\obj\Debug\net6.0\TheCheckpoint.Domain.AssemblyInfo.cs
+C:\Users\Ülvi\Desktop\DEV\TheCheckpointAPI\Core\TheCheckpoint.Domain\obj\Debug\net6.0\TheCheckpoint.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Ülvi\Desktop\DEV\TheCheckpointAPI\Core\TheCheckpoint.Domain\obj\Debug\net6.0\TheCheckpoint.Domain.dll
+C:\Users\Ülvi\Desktop\DEV\TheCheckpointAPI\Core\TheCheckpoint.Domain\obj\Debug\net6.0\refint\TheCheckpoint.Domain.dll
+C:\Users\Ülvi\Desktop\DEV\TheCheckpointAPI\Core\TheCheckpoint.Domain\obj\Debug\net6.0\TheCheckpoint.Domain.pdb
+C:\Users\Ülvi\Desktop\DEV\TheCheckpointAPI\Core\TheCheckpoint.Domain\obj\Debug\net6.0\ref\TheCheckpoint.Domain.dll

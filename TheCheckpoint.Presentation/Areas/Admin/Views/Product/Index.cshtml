@@ -1,0 +1,110 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+@model PaginatedList<Product>
+<div class="container-fluid">
+    <div class="page-header">
+        <div class="row">
+            <div class="col-sm-6">
+                <h3>Product list</h3>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item">Pages   </li>
+                    <li class="breadcrumb-item">ECommerce</li>
+                    <li class="breadcrumb-item active">Product list</li>
+                </ol>
+            </div>
+            <div class="col-sm-6">
+                <!-- Bookmark Start-->
+                <div class="bookmark">
+                    <ul>
+                        <li><a href="javascript:void(0)" data-container="body" data-bs-toggle="popover" data-placement="top" title="" data-original-title="Tables"><i data-feather="inbox"></i></a></li>
+                        <li><a href="javascript:void(0)" data-container="body" data-bs-toggle="popover" data-placement="top" title="" data-original-title="Chat"><i data-feather="message-square"></i></a></li>
+                        <li><a href="javascript:void(0)" data-container="body" data-bs-toggle="popover" data-placement="top" title="" data-original-title="Icons"><i data-feather="command"></i></a></li>
+                        <li><a href="javascript:void(0)" data-container="body" data-bs-toggle="popover" data-placement="top" title="" data-original-title="Learning"><i data-feather="layers"></i></a></li>
+                        <li>
+                            <a href="javascript:void(0)"><i class="bookmark-search" data-feather="star"></i></a>
+                            <form class="form-inline search-form">
+                                <div class="form-group form-control-search">
+                                    <input type="text" placeholder="Search..">
+                                </div>
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Bookmark Ends-->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Container-fluid starts-->
+<div class="container-fluid list-products">
+    <div class="row">
+        <!-- Individual column searching (text inputs) Starts-->
+        <div class="col-sm-12">
+            <div class="card">
+                <div class="card-header pb-0">
+                    <h5>Individual column searching (text inputs) </h5><span>The searching functionality provided by DataTables is useful for quickly search through the information in the table - however the search is global, and you may wish to present controls that search on specific columns.</span>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive product-table">
+                        <table class="display w-100" id="basic-1">
+                            <thead>
+                                <tr>
+                                    <th>Image</th>
+                                    <th>Details</th>
+                                    <th>Amount</th>
+                                    <th>Stock</th>
+                                    <th>Start date</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var product in Model.Datas)
+                                {
+                                    <tr class="p-1">
+                                        <td><a href="product-page.html"><img src="~/@product.ProductImageFiles.FirstOrDefault()?.Path/@product.ProductImageFiles.FirstOrDefault(pif=>pif.IsCover == true)?.Name" alt=""></a></td>
+                                        <td>
+                                            <a href="product-page.html">
+                                                <a asp-action="Details" asp-route-id="@product.Id"><h6> @product.Name </h6></a>
+                                            </a>
+                                        </td>
+                                        <td>$@product.Price</td>
+                                        @if (product.StockCount > 0)
+                                        {
+                                            <td>@product.StockCount</td>
+                                        }
+                                        else{
+                                            <td class="font-danger">out of stock</td>
+                                        }
+                                        <td>@product.CreatedTime</td>
+                                        <td>
+                                            <a class="btn btn-danger btn-xs" asp-action="Delete" asp-route-id="@product.Id" data-original-title="btn btn-danger btn-xs" title="">Delete</a>
+                                            <a class="btn btn-primary btn-xs" data-original-title="btn btn-danger btn-xs" title="">Edit</a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                        <div class="btn-group">
+                            @if (Model.CurrentPage != 0)
+                            {
+                                <a asp-route-page="@(Model.CurrentPage-1)" class="btn p-2">Left</a>
+                            }
+                            @for (var i = 0; i < Model.PageCount; i++)
+                            {
+                                <a asp-route-page="@i" class="btn p-2 @(i==Model.CurrentPage ? "btn-primary": "")">@(i + 1)</a>
+                            }
+                            @if (Model.CurrentPage+1 != Model.PageCount)
+                            {
+                                <a asp-route-page="@(Model.CurrentPage+1)" class="btn p-2">Right</a>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Individual column searching (text inputs) Ends-->
+    </div>
+</div>

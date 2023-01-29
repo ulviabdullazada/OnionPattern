@@ -1,0 +1,95 @@
+﻿@{
+    ViewData["Title"] = "Create";
+}
+@section PluginCSS{
+    <link rel="stylesheet" type="text/css" href="~/admin/assets/css/dropzone.css">
+}
+@section PluginJS{
+    <script src="~/admin/assets/js/form-validation-custom.js"></script>
+    <script src="~/admin/assets/js/dropzone/dropzone.js"></script>
+    <script src="~/admin/assets/js/dropzone/dropzone-script.js"></script>
+    <script src="~/admin/assets/js/tooltip-init.js"></script>
+
+}
+    @model ProductCreateVM
+<div class="container-fluid">
+    <div class="page-header">
+        <div class="row">
+            <div class="col-sm-6">
+                <h3>Validation Forms</h3>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item">Forms   </li>
+                    <li class="breadcrumb-item">Form Controls</li>
+                    <li class="breadcrumb-item active">Validation Forms</li>
+                </ol>
+            </div>
+            <div class="col-sm-6">
+                <!-- Bookmark Start-->
+                <div class="bookmark">
+                    <ul>
+                        <li><a href="javascript:void(0)" data-container="body" data-bs-toggle="popover" data-placement="top" title="" data-original-title="Tables"><i data-feather="inbox"></i></a></li>
+                        <li><a href="javascript:void(0)" data-container="body" data-bs-toggle="popover" data-placement="top" title="" data-original-title="Chat"><i data-feather="message-square"></i></a></li>
+                        <li><a href="javascript:void(0)" data-container="body" data-bs-toggle="popover" data-placement="top" title="" data-original-title="Icons"><i data-feather="command"></i></a></li>
+                        <li><a href="javascript:void(0)" data-container="body" data-bs-toggle="popover" data-placement="top" title="" data-original-title="Learning"><i data-feather="layers"></i></a></li>
+                        <li>
+                            <a href="javascript:void(0)"><i class="bookmark-search" data-feather="star"></i></a>
+                            <form class="form-inline search-form">
+                                <div class="form-group form-control-search">
+                                    <input type="text" placeholder="Search..">
+                                </div>
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Bookmark Ends-->
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="card">
+                <div class="card-header pb-0">
+                    <h5>Product create</h5>
+                </div>
+                <div class="card-body">
+                    <div class=" alert alert-danger" asp-validation-summary="ModelOnly"></div>
+                    <form method="post" enctype="multipart/form-data">
+                        <div class="row g-3 mb-3">
+                            <div class="col-md-6">
+                                <label class="form-label" asp-for="Name"></label>
+                                    <input class="form-control" asp-for="Name">
+                                    <span class="text text-danger mt-5" asp-validation-for="Name"></span>
+                            </div>
+                            <div class="col-md-6">
+                                    <label class="form-label" asp-for="Price"></label>
+                                    <input class="form-control" asp-for="Price">
+                                    <span class="text text-danger mt-5" asp-validation-for="Price"></span>
+                            </div>
+                            <div class="col-md-6">
+                                    <label class="form-label" asp-for="StockCount"></label>
+                                    <input class="form-control" asp-for="StockCount">
+                                    <span class="text text-danger mt-5" asp-validation-for="StockCount"></span>
+                            </div>
+                            <div class="col-md-6">
+                                    <label class="form-label" asp-for="Discount"></label>
+                                    <input class="form-control" asp-for="Discount">
+                                    <span class="text text-danger mt-5" asp-validation-for="Discount"></span>
+                            </div>
+                            <div class="col-md-6">
+                                <input asp-for="Images">
+                            </div>
+                            <div class="col-md-6">
+                                <input asp-for="CoverImage">
+                            </div>
+                        </div>
+                        <button class="btn btn-primary" type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
